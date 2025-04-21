@@ -1,0 +1,95 @@
+OPENGL – Overview
+
+OpenGL (Open Graphics Library) is a specification, not a direct implementation. It defines what graphics functions should do, but not how they're implemented.
+
+OpenGL is managed by the Khronos Group, which defines what each function (like glDrawArrays, glTexImage2D, etc.) is supposed to do. These functions are then implemented by GPU vendors (NVIDIA, AMD, Intel, etc.) inside their graphics drivers.
+
+These implementations are compiled binary code. Your program accesses them through function pointers loaded at runtime.
+
+OpenGL is a state machine. You configure it by setting states (like which shader or texture to use), and when you draw, it uses the current states. Managing state properly is crucial for performance and stability.
+
+
+
+
+
+
+Creating a Window with GLFW
+OpenGL can't create windows or handle input on its own. We use GLFW to:
+
+Create a window
+
+Handle input (keyboard, mouse)
+
+Manage the OpenGL context
+
+Provide time functions and more
+
+Typical GLFW Workflow:
+
+glfwInit()
+
+glfwWindowHint() - set OpenGL version/profile
+
+glfwCreateWindow()
+
+glfwMakeContextCurrent()
+
+Main loop: glfwSwapBuffers() + glfwPollEvents()
+
+Tip: Always check if glfwCreateWindow() returns nullptr. It may fail due to version incompatibility.
+
+
+
+
+
+
+
+
+
+Loading OpenGL Functions with GLEW / GLAD
+Even after creating a window, you can't call most OpenGL functions like glGenBuffers or glUseProgram right away — they're not included in the headers.
+
+These are provided by the GPU driver, so they must be loaded at runtime using function pointers.
+
+Instead of doing it manually, we use:
+
+GLEW (older, stable)
+
+GLAD (modern, preferred)
+
+Others: glbinding, GL3W
+
+These libraries detect your GPU's OpenGL version and load all function pointers automatically.
+
+Tip: GLAD is a good modern choice and gives you control over versions.
+
+Legacy OpenGL vs Modern OpenGL
+Legacy OpenGL:
+
+Uses the fixed-function pipeline
+
+Simple to use
+
+Poor performance
+
+No shaders (built-in lighting only)
+
+Examples: glBegin(), glVertex3f()
+
+Deprecated
+
+Modern OpenGL:
+
+Fully programmable pipeline
+
+Requires setup but gives full GPU control
+
+Excellent performance
+
+Requires shaders written in GLSL
+
+Examples: glGenBuffers(), VAOs, shaders
+
+Industry standard today
+
+Tip: Use legacy OpenGL only to understand basic concepts. Switch to modern OpenGL ASAP.
