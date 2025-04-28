@@ -93,3 +93,45 @@ Examples: glGenBuffers(), VAOs, shaders
 Industry standard today
 
 Tip: Use legacy OpenGL only to understand basic concepts. Switch to modern OpenGL ASAP.
+
+
+
+
+
+
+
+VBO (Vertex Buffer Objects)
+
+it is basically a array of vertex in the GPU memory. first we allocate a memory and then give it a argument as uint. then we bind the memory to the uint as buffer, then we tell that how much the size it is. this will be the data that we need to draw. next we will have to give the shader that will tell how to draw the triangle.
+
+
+
+VAO(Vertex Attribute Objects)
+
+basically VBO has the data which is stored in the GPU. now shader reads the buffer, it needs to know the layout the buffer. what kind of data is it? positions, texture coordinates, normals? What is in the memory and what is the layout? It cant know automatically what data is present in the buffer? so attribute tells what kind of data it is.
+
+Vertex is not always positions, it is a point, it can also tell the texture coordinates, or the normals. not always positions.OpenGL doesnt know what is the data of the vertices and what the layout is.
+
+positions is an attribute
+color is an attribute
+tangent is an attribute 
+
+there are vertices of attributes.
+
+
+SHADER 
+
+it is a block of code that gets compiled and written as text but it is run by the GPU. 
+shader tells that how should the geometry be drawn, the color,
+what happens to the buffer, this is all done by the shader.
+
+VERTEX SHADERS | FRAGMENT SHADERS (PIXEL)
+
+DRAW CALL -> VERTEX -> FRAGMENT -> OUTPUT!!!
+
+
+vertex shader is called for each vertex. it tells opengl where the vertex should be in the screen space. it also passes data to next stages.
+the index 0 will be used to access the data in the vertex shader
+
+
+the fragment shader is called for each pixel that needs to be filled in and tells the color of the pixel with which it needs to be drawn.
