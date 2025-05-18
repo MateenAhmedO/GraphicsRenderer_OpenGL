@@ -1,1 +1,6 @@
 C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\src\Application.cpp;C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\x64\Debug\Application.obj
+C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\src\IndexBuffer.cpp;C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\x64\Debug\IndexBuffer.obj
+C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\src\Renderer.cpp;C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\x64\Debug\Renderer.obj
+C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\src\Shader.cpp;C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\x64\Debug\Shader.obj
+C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\src\VertexArray.cpp;C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\x64\Debug\VertexArray.obj
+C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\src\VertexBuffer.cpp;C:\Dev\GraphicsRenderer_1\GraphicsRenderer_1\x64\Debug\VertexBuffer.obj
