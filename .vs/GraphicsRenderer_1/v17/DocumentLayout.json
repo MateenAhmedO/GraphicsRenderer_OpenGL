@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Dev\\GraphicsRenderer_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|solutionrelative:GraphicsRenderer_1\\src\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|solutionrelative:GraphicsRenderer_1\\src\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|solutionrelative:GraphicsRenderer_1\\src\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|solutionrelative:GraphicsRenderer_1\\src\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5BD89D2-A2D8-41F4-B5FC-CF5B80D2A781}|GraphicsRenderer_1\\GraphicsRenderer_1.vcxproj|solutionrelative:GraphicsRenderer_1\\src\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +21,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 71,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 254,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,42 +30,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Shader.cpp",
-              "DocumentMoniker": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Shader.cpp",
-              "RelativeDocumentMoniker": "GraphicsRenderer_1\\src\\Shader.cpp",
-              "ToolTip": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Shader.cpp",
-              "RelativeToolTip": "GraphicsRenderer_1\\src\\Shader.cpp",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCsAAAACAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Renderer.cpp",
+              "DocumentMoniker": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Renderer.cpp",
+              "RelativeDocumentMoniker": "GraphicsRenderer_1\\src\\Renderer.cpp",
+              "ToolTip": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Renderer.cpp",
+              "RelativeToolTip": "GraphicsRenderer_1\\src\\Renderer.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-18T15:34:55.574Z",
+              "WhenOpened": "2025-05-29T17:49:26.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Shader.h",
-              "DocumentMoniker": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Shader.h",
-              "RelativeDocumentMoniker": "GraphicsRenderer_1\\src\\Shader.h",
-              "ToolTip": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Shader.h",
-              "RelativeToolTip": "GraphicsRenderer_1\\src\\Shader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Title": "Renderer.h",
+              "DocumentMoniker": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Renderer.h",
+              "RelativeDocumentMoniker": "GraphicsRenderer_1\\src\\Renderer.h",
+              "ToolTip": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Renderer.h",
+              "RelativeToolTip": "GraphicsRenderer_1\\src\\Renderer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-18T15:34:43.576Z",
+              "WhenOpened": "2025-05-29T17:35:41.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Application.cpp",
               "DocumentMoniker": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Application.cpp",
               "RelativeDocumentMoniker": "GraphicsRenderer_1\\src\\Application.cpp",
               "ToolTip": "C:\\Dev\\GraphicsRenderer_1\\GraphicsRenderer_1\\src\\Application.cpp",
               "RelativeToolTip": "GraphicsRenderer_1\\src\\Application.cpp",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwEwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-18T15:32:42.025Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 71,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
